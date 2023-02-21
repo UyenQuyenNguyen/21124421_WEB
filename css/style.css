@@ -3,11 +3,11 @@
 }
 
 .main{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,3 +35,22 @@
     margin-bottom: 5rem;
 }
 
+.bai7_item img{
+    width: 50px;   
+}
+.bai7_item{
+    width: 60%;
+}
+.bai7_item div{
+    display: flex;
+    margin: 1rem;
+}
+
+.bai7_item .item3{
+    align-items: center;
+}
+
+.bai7_item .item4{
+    display: flex;
+    flex-direction: row-reverse;
+}
