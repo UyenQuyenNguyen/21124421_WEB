@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.bai2_main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bai2_item{
+    background-color: rgb(233, 194, 96);
+    text-align: center;
+    padding: 2rem;
+}
