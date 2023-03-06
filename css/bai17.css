@@ -1,0 +1,23 @@
+.container_chid{
+    width: 700px;
+    background-color: antiquewhite;
+}
+.text_center{
+    text-align: center;
+}
+.width_600{
+    text-align: start;
+    width: 660px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+}
+
+.margin_left{
+    margin-left: 100px;
+}
