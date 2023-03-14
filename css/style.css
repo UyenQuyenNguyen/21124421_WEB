@@ -42,7 +42,7 @@ navbar{
 .navbar_login_settings{
     display: flex;
     flex-direction: column;
-    margin-bottom:  50px;
+    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -51,17 +51,18 @@ navbar{
 }
 
 section{
-    width: 100vw;
     height: 100vh;
-    padding-left: 140px;
+    margin-left: 100px;
     position: relative;
+    display: flex;
+    padding: 40px;
 }
 
 .left_side{
-    width: 60%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    box-sizing: content-box;
 }
 
 .title_time{
@@ -101,6 +102,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 35px;
 }
 
 .date{
@@ -119,45 +121,137 @@ section{
 
 .img_main{
     position: relative;
+    margin-bottom: 25px;
+}
+
+.img_big{
+    border-radius: 3px;
 }
 
 .mic_absl{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 50px;
 }
 
 .img_component{
     display: flex;
+    
 }
 
 .title{
     position: relative;
-    margin: 0 30px;
+    margin-right: 26px;
 }
 
 .img1_absl{
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 8px;
+    right: 8px;
 }
 
 .main_title{
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .button_meeting{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .button_meeting img{
-    margin: 0 17px;
+    margin: 0 9px;
 }
 
 .button_meeting button{
     border: none;
     width: 130px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: red;
     color: white;
+    margin: 0 9px;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person_info{
+    display: flex;
+    align-items: center;
+}
+
+.person_info img{
+    margin-right: 10px;
+}
+
+.participant_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.participant_title button{
+    width: 70px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: rgb(168, 81, 95);
+    border:  1px solid rgb(168, 81, 95);
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right_side{
+    display:flex ;
+    flex-direction: column;
+    width: 450px;
+    padding: 0 40px;
+    border-left:  1px rgba(215, 212, 212, 0.715) solid;
+}
+
+.chat{
+    padding-top: 40px;
+
+}
+
+.chat h1{
+    margin-bottom: 40px;
+}
+
+.chat .person_info p{
+    font-weight: bold;
+}
+
+.chat .person_info{
+    margin-bottom: 10px;
+}
+
+.text_content{
+    border-radius: 8px;
+    background-color: rgba(236, 236, 236, 0.815);
+    padding: 16px;
+    margin-left: 52px;
+}
+
+.message_box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: rgba(215, 212, 212, 0.715);
+}
+
+.message_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+ 
 }
