@@ -1,6 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1440px;
 }
 
 navbar{
@@ -8,10 +14,9 @@ navbar{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
+    border-right: 1px rgba(215, 212, 212, 0.715) solid;
 }
 
 .navbar_main{
@@ -37,10 +42,122 @@ navbar{
 .navbar_login_settings{
     display: flex;
     flex-direction: column;
-    margin-bottom:  300px;
+    margin-bottom:  50px;
     align-items: center;
 }
 
 .navbar_login_settings img{
     margin: 20px 0;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 140px;
+    position: relative;
+}
+
+.left_side{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.title_time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.date_time{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+}
+
+.internal{
+    height: 30px;
+    width: 80px;
+    border-radius: 16px;
+    background-color: palevioletred;
+    color: aliceblue;
+    text-align: center;
+    border: none;
+    margin-right: 17px;
+}
+
+.internal img{
+    width: 12px;
+}
+
+.time_maintain{
+    width: 90px;
+    height: 40px;
+    border-radius: 26px;
+    color: red;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.date img{
+   margin-right: 5px;
+}
+
+.time{
+    margin-left: 14px;
+}
+
+.img_main{
+    position: relative;
+}
+
+.mic_absl{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img_component{
+    display: flex;
+}
+
+.title{
+    position: relative;
+    margin: 0 30px;
+}
+
+.img1_absl{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.main_title{
+    border-radius: 16px;
+}
+
+.button_meeting{
+    display: flex;
+    justify-content: center;
+}
+.button_meeting img{
+    margin: 0 17px;
+}
+
+.button_meeting button{
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
 }
