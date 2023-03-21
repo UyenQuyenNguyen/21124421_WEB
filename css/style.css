@@ -276,3 +276,124 @@ header{
 .title_favourite h3{
     color: black;
 }
+
+footer{
+    width: 1440px;
+    height: 450px;
+    padding: 0 140px;
+    box-sizing: border-box;
+}
+
+.footer_main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailbox{
+    height: 35px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.mailbox input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 8px;
+}
+
+.mailbox button{
+    border: none;
+    height: 35px;
+    width: 115px;
+    color: white;
+    background-color: rgb(7, 209, 209);
+    border-radius:  0 5px 5px 0;
+}
+
+
+
+.footer_item{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.ft_item{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ft_item p{
+    font-size: 14px;
+}
+
+.languge_contacticon{
+    padding: 0 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language_left{
+    width: 30%;
+
+}
+
+.language_left select{
+    border: none;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 24px;
+    font-size: 12px;
+}
+
+.center{
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+}.contactIcon_right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contactIcon_right img{
+    margin-right: 16px;
+}
