@@ -67,3 +67,34 @@ header{
     margin-left: 20px;
 
 }
+
+#section1{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 140px;
+    box-sizing: border-box;
+}
+.rate{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+#section1 h1{
+    font-size: 42px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.img1{
+    grid-area: 1 / 1 / span 2;
+}
+
+.product_img{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    gap: 16px;
+
+}
