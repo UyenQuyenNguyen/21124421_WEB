@@ -180,3 +180,39 @@ header{
     border: 1px solid rgb(7, 209, 209);
     background-color: white;
 }
+
+.revw{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    font-weight: bolder;
+}
+
+.person_inf{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.name_rating{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+
+#section2{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px;
+   
+}
+
+.review_contain{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 40px;
+    font-size: 14px;
+}
