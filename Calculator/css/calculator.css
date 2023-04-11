@@ -1,0 +1,85 @@
+.w_200{
+    width: 260px;
+    margin-bottom: 10px;
+}
+.d-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.button{
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    border-style: none;
+}
+.button:hover{
+    background-color: #949494;
+}
+.color_line1{
+    background-color: #cececea2;
+    color: #0e0e0e;
+}
+.color_line2{
+    background-color: #f69906;
+    color: #f5f7f7;
+}
+.color_line3{
+    background-color: #313131;
+    color: #f5f7f7;
+}
+.color_line4{
+    background-color: #313131;
+    color: #f5f7f7;
+    height: 55px;
+    width: 110px;
+    border-radius: 30px;
+    border-style: none;
+}
+.color_line4:hover{
+    background-color: #949494;
+}
+.container{
+    width: 300px;
+    border-radius: 40px;
+    background-color: black;
+    height: 600px;
+}
+h1{
+    font-size: 6rem;
+    color: white;
+    font-weight: normal;
+}
+.so{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#ketqua{
+    width: 260px;
+    height: 130px;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    text-align: end;
+    background-color: #ff000000;
+}
